@@ -14,7 +14,7 @@ const SmurfForm = ({ status }) => {
 
     return (
         <div className='smurf-form'>
-            <h1>Sign Up</h1>
+            <h1>Add a Smurf!</h1>
             <Form>
                 <Field type="text" name="name" placeholder="Name" />
 
@@ -24,7 +24,9 @@ const SmurfForm = ({ status }) => {
 
                 {/* <Field type="text" name="id" placeholder="id" /> */}
 
-                <button type='submit'>Submit!</button>
+                <button type='submit' 
+                    onClick={()=> window.location.reload()}>
+                    Submit!</button>
             </Form>
         </div>
     )
