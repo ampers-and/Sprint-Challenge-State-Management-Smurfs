@@ -26,3 +26,34 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.smurf-list{
+  background-color:#54b8e4;
+  display:flex;
+  flex-wrap: wrap;
+  width:600px;
+  margin:2% auto;
+  padding: 2%;
+}
+
+.ui.card{
+  width:250px !important;
+  margin: 10px !important;
+}
+
+button{
+  margin:10px !important;
+  border-radius:4px;
+  border: 2px solid #54b8e4;
+  padding:5px;
+  color:#54b8e4;
+}
+
+h1{
+  color:#54b8e4;
+}
+
+::placeholder{
+  color:#9fbfcc;
+  padding-left:5px;
+}
