@@ -20,4 +20,4 @@
 
 5. What is your favorite state management system you've learned and this sprint? Please explain why!
 
-    Even though I hardly get it, I do like using redux. It is a very powerful tool. For this assignment though, I chose to use Context API for practice.
+    Even though I hardly get it, I do like using redux. It is a very powerful tool.
