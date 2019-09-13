@@ -40,3 +40,20 @@
   width:250px !important;
   margin: 10px !important;
 }
+
+button{
+  margin:10px !important;
+  border-radius:4px;
+  border: 2px solid #54b8e4;
+  padding:5px;
+  color:#54b8e4;
+}
+
+h1{
+  color:#54b8e4;
+}
+
+::placeholder{
+  color:#9fbfcc;
+  padding-left:5px;
+}
