@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import 'semantic-ui-css/semantic.min.css'
+import "semantic-ui-css/semantic.min.css";
 
-import SmurfList from './SmurfList';
-import SmurfForm from './SmurfForm';
+import SmurfList from "./SmurfList";
+import Form from "./Form";
+// import SmurfForm from './SmurfForm'; //formik
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
       <div className="App">
         <h1>SMURFS! 2.0 W/ Redux</h1>
         <div>Welcome to your state management version of Smurfs!</div>
-        <SmurfForm />
+        <Form />
         <SmurfList />
       </div>
     );
